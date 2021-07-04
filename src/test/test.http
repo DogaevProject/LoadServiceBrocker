@@ -1,0 +1,44 @@
+###2.2.1 Получение информации о модуле###
+GET http://localhost:8082/v2/catalog
+X-Broker-API-Version: 2.13
+
+###2.2.2 Работа с экземплярами модуля###
+
+###2.2.2.1 Создание экземпляра модуля
+PUT http://localhost:8082/v2/service_instances/322574a5-d25f-4035-8277-7db289951f3b
+X-Broker-API-Version: 2.13
+Content-Type: application/json
+
+{
+  "service_id": "acdd7cfc-ccd9-11ea-87d0-0242ac130005",
+  "plan_id": "acdd7cfc-ccd9-11ea-87d0-0242ac130005"
+}
+
+###2.2.2.2 Получение ссылки на модуль
+GET http://localhost:8082/v2/service_instances/322574a5-d25f-4035-8277-7db289951f3b
+X-Broker-API-Version: 2.13
+
+###2.2.2.3 Удаление существующего модуля
+DELETE http://localhost:8082/v2/service_instances/322574a5-d25f-4035-8277-7db289951f3b?service_id=acdd7cfc-ccd9-11ea-87d0-0242ac130005&plan_id=acdd7cfc-ccd9-11ea-87d0-0242ac130005
+X-Broker-API-Version: 2.13
+
+###2.2.3 Работа с пользователями экземпляров модуля###
+###2.2.3.1 Создание пользователя экземпляра модуля
+PUT http://localhost:8082/v2/service_instances/322574a5-d25f-4035-8277-7db289951f3b/service_bindings/d2ad82d2-141b-42ec-b3b1-5f858f20f714
+X-Broker-API-Version: 2.13
+Content-Type: application/json
+
+{
+  "plan_id": "acdd7cfc-ccd9-11ea-87d0-0242ac130005",
+  "service_id": "acdd7cfc-ccd9-11ea-87d0-0242ac130005"
+}
+
+###2.2.3.2 Получение информации о пользователе
+GET http://localhost:8082/v2/service_instances/322574a5-d25f-4035-8277-7db289951f3b/service_bindings/d2ad82d2-141b-42ec-b3b1-5f858f20f714
+X-Broker-API-Version: 2.13
+
+###2.2.3.3 Удаление пользователя
+DELETE http://localhost:8082/v2/service_instances/322574a5-d25f-4035-8277-7db289951f3b/service_bindings/d2ad82d2-141b-42ec-b3b1-5f858f20f714?service_id=acdd7cfc-ccd9-11ea-87d0-0242ac130005&plan_id=acdd7cfc-ccd9-11ea-87d0-0242ac130005
+X-Broker-API-Version: 2.13
+
+###

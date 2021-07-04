@@ -1,0 +1,828 @@
+2021-07-03 22:09:57.848  INFO 28523 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28523 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:09:57.852 DEBUG 28523 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:09:57.853  INFO 28523 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:09:58.696  INFO 28523 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:09:59.003  INFO 28523 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 295ms. Found 4 repository interfaces.
+2021-07-03 22:09:59.669  INFO 28523 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cbc82af4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:09:59.875  INFO 28523 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:10:00.235  INFO 28523 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:10:00.297  INFO 28523 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:10:00.414  INFO 28523 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:10:00.416  INFO 28523 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:10:00.642  INFO 28523 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:10:00.854  INFO 28523 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:10:01.819  INFO 28523 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:10:02.197  INFO 28523 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:10:03.051  INFO 28523 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 6.218 seconds (JVM running for 6.984)
+2021-07-03 22:10:03.064  INFO 28523 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:10:03.065  INFO 28523 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 22:10:03.068  INFO 28523 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 22:13:40.005  INFO 28547 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28547 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:13:40.008 DEBUG 28547 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:13:40.009  INFO 28547 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:13:40.886  INFO 28547 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:13:41.088  INFO 28547 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191ms. Found 4 repository interfaces.
+2021-07-03 22:13:41.886  INFO 28547 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$95771bd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:13:42.329  INFO 28547 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 22:13:42.361  INFO 28547 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 22:13:42.361  INFO 28547 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 22:13:42.505  INFO 28547 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 22:13:42.505  INFO 28547 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2437 ms
+2021-07-03 22:13:42.992  INFO 28547 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:13:43.181  INFO 28547 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:13:43.246  INFO 28547 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:13:43.349  INFO 28547 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:13:43.351  INFO 28547 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:13:43.554  INFO 28547 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:13:43.731  INFO 28547 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:13:44.566  INFO 28547 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:13:44.913  INFO 28547 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:13:45.391  INFO 28547 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:13:45.455  WARN 28547 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 22:13:45.753  INFO 28547 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 22:13:45.816  INFO 28547 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 22:13:45.818  INFO 28547 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 7.003 seconds (JVM running for 7.584)
+2021-07-03 22:15:06.058  INFO 28547 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 22:15:06.060  INFO 28547 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 22:15:06.079  INFO 28547 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2021-07-03 22:15:42.022  INFO 28547 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:15:42.026  INFO 28547 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:15:42.031  INFO 28547 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 22:15:42.034  INFO 28547 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 22:20:42.257  INFO 28578 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28578 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:20:42.260 DEBUG 28578 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:20:42.261  INFO 28578 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:20:43.154  INFO 28578 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:20:43.336  INFO 28578 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172ms. Found 4 repository interfaces.
+2021-07-03 22:20:44.088  INFO 28578 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cebfe2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:20:44.478  INFO 28578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 22:20:44.508  INFO 28578 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 22:20:44.508  INFO 28578 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 22:20:44.658  INFO 28578 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 22:20:44.658  INFO 28578 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2310 ms
+2021-07-03 22:20:45.168  INFO 28578 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:20:45.367  INFO 28578 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:20:45.430  INFO 28578 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:20:45.530  INFO 28578 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:20:45.533  INFO 28578 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:20:45.762  INFO 28578 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:20:45.933  INFO 28578 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:20:46.708  INFO 28578 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:20:47.051  INFO 28578 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:20:47.516  INFO 28578 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:20:47.577  WARN 28578 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 22:20:47.872  INFO 28578 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 22:20:47.952  INFO 28578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 22:20:47.954  INFO 28578 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 6.71 seconds (JVM running for 7.334)
+2021-07-03 22:24:46.623  INFO 28578 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 22:24:46.625  INFO 28578 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 22:24:46.653  INFO 28578 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2021-07-03 22:27:29.592 ERROR 28578 --- [http-nio-8082-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null] with root cause
+
+org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null
+	at org.springframework.cloud.servicebroker.autoconfigure.web.servlet.ApiVersionInterceptor.preHandle(ApiVersionInterceptor.java:71) ~[spring-cloud-open-service-broker-autoconfigure-3.0.2.RELEASE.jar:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2021-07-03 22:28:18.207  INFO 28578 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:28:18.212  INFO 28578 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:28:18.215  INFO 28578 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 22:28:18.221  INFO 28578 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 22:28:26.122  INFO 28613 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28613 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:28:26.125 DEBUG 28613 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:28:26.126  INFO 28613 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:28:27.220  INFO 28613 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:28:27.418  INFO 28613 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185ms. Found 4 repository interfaces.
+2021-07-03 22:28:28.124  INFO 28613 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f90ba1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:28:28.466  INFO 28613 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 22:28:28.494  INFO 28613 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 22:28:28.495  INFO 28613 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 22:28:28.617  INFO 28613 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 22:28:28.617  INFO 28613 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2426 ms
+2021-07-03 22:28:29.093  INFO 28613 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:28:29.278  INFO 28613 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:28:29.336  INFO 28613 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:28:29.412  INFO 28613 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:28:29.414  INFO 28613 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:28:29.585  INFO 28613 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:28:29.719  INFO 28613 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:28:30.412  INFO 28613 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:28:30.722  INFO 28613 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:28:31.392  INFO 28613 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:28:31.440  WARN 28613 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 22:28:31.776  INFO 28613 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 22:28:31.843  INFO 28613 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 22:28:31.846  INFO 28613 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 6.738 seconds (JVM running for 7.36)
+2021-07-03 22:28:40.161  INFO 28613 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 22:28:40.162  INFO 28613 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 22:28:40.173  INFO 28613 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-07-03 22:29:49.595 ERROR 28613 --- [http-nio-8082-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null] with root cause
+
+org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null
+	at org.springframework.cloud.servicebroker.autoconfigure.web.servlet.ApiVersionInterceptor.preHandle(ApiVersionInterceptor.java:71) ~[spring-cloud-open-service-broker-autoconfigure-3.0.2.RELEASE.jar:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2021-07-03 22:30:02.465  INFO 28613 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:30:02.472  INFO 28613 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:30:02.476  INFO 28613 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 22:30:02.481  INFO 28613 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 22:30:09.271  INFO 28624 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28624 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:30:09.274 DEBUG 28624 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:30:09.277  INFO 28624 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:30:10.031  INFO 28624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:30:10.193  INFO 28624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 4 repository interfaces.
+2021-07-03 22:30:10.993  INFO 28624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27b7c626] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:30:11.458  INFO 28624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 22:30:11.485  INFO 28624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 22:30:11.485  INFO 28624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 22:30:11.654  INFO 28624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 22:30:11.655  INFO 28624 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2302 ms
+2021-07-03 22:30:12.154  INFO 28624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:30:12.322  INFO 28624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:30:12.379  INFO 28624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:30:12.469  INFO 28624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:30:12.471  INFO 28624 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:30:12.635  INFO 28624 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:30:12.789  INFO 28624 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:30:13.535  INFO 28624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:30:13.922  INFO 28624 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:30:14.423  INFO 28624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:30:14.469  WARN 28624 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 22:30:14.816  INFO 28624 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 22:30:14.881  INFO 28624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 22:30:14.883  INFO 28624 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 6.73 seconds (JVM running for 7.471)
+2021-07-03 22:30:42.129  INFO 28624 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 22:30:42.130  INFO 28624 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 22:30:42.142  INFO 28624 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-07-03 22:31:05.150 ERROR 28624 --- [http-nio-8082-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null] with root cause
+
+org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null
+	at org.springframework.cloud.servicebroker.autoconfigure.web.servlet.ApiVersionInterceptor.preHandle(ApiVersionInterceptor.java:71) ~[spring-cloud-open-service-broker-autoconfigure-3.0.2.RELEASE.jar:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2021-07-03 22:31:14.733  INFO 28624 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:31:14.741  INFO 28624 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:31:14.746  INFO 28624 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 22:31:14.753  INFO 28624 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 22:31:20.993  INFO 28633 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28633 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:31:20.998 DEBUG 28633 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:31:20.999  INFO 28633 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:31:22.021  INFO 28633 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:31:22.196  INFO 28633 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165ms. Found 4 repository interfaces.
+2021-07-03 22:31:22.959  INFO 28633 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cc5c8d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:31:23.355  INFO 28633 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 22:31:23.387  INFO 28633 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 22:31:23.388  INFO 28633 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 22:31:23.535  INFO 28633 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 22:31:23.535  INFO 28633 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2440 ms
+2021-07-03 22:31:24.052  INFO 28633 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:31:24.222  INFO 28633 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:31:24.281  INFO 28633 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:31:24.511  INFO 28633 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:31:24.513  INFO 28633 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:31:24.713  INFO 28633 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:31:24.880  INFO 28633 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:31:25.672  INFO 28633 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:31:26.045  INFO 28633 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:31:26.612  INFO 28633 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:31:26.684  WARN 28633 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 22:31:27.014  INFO 28633 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 22:31:27.106  INFO 28633 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 22:31:27.108  INFO 28633 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 7.111 seconds (JVM running for 7.798)
+2021-07-03 22:31:35.391  INFO 28633 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 22:31:35.393  INFO 28633 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 22:31:35.403  INFO 28633 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-07-03 22:31:35.449 ERROR 28633 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null] with root cause
+
+org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null
+	at org.springframework.cloud.servicebroker.autoconfigure.web.servlet.ApiVersionInterceptor.preHandle(ApiVersionInterceptor.java:71) ~[spring-cloud-open-service-broker-autoconfigure-3.0.2.RELEASE.jar:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2021-07-03 22:39:09.889 ERROR 28633 --- [http-nio-8082-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null] with root cause
+
+org.springframework.cloud.servicebroker.exception.ServiceBrokerApiVersionMissingException: The provided service broker API version is not supported: expected version=2.13, provided version=null
+	at org.springframework.cloud.servicebroker.autoconfigure.web.servlet.ApiVersionInterceptor.preHandle(ApiVersionInterceptor.java:71) ~[spring-cloud-open-service-broker-autoconfigure-3.0.2.RELEASE.jar:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) ~[spring-boot-actuator-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2021-07-03 22:47:16.790 DEBUG 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:47:16.974  WARN 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:47:20.017 DEBUG 28633 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:47:20.019  WARN 28633 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:47:20.896 DEBUG 28633 --- [http-nio-8082-exec-8] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:47:20.898  WARN 28633 --- [http-nio-8082-exec-8] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:47:58.902 DEBUG 28633 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 22:47:58.905  WARN 28633 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 22:49:54.289 DEBUG 28633 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 22:49:54.294  WARN 28633 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 22:50:56.540 DEBUG 28633 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 22:50:56.608 DEBUG 28633 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 22:50:56.610  WARN 28633 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 22:51:55.724 DEBUG 28633 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 22:51:55.727 DEBUG 28633 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 22:51:55.728  WARN 28633 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 22:54:14.332 DEBUG 28633 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:54:14.333 DEBUG 28633 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:54:14.443 DEBUG 28633 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 22:55:46.614 DEBUG 28633 --- [http-nio-8082-exec-2] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:55:46.634 DEBUG 28633 --- [http-nio-8082-exec-2] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 22:57:01.198 DEBUG 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:57:01.200 DEBUG 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 22:57:31.687 DEBUG 28633 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:57:31.687 DEBUG 28633 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:57:31.689 ERROR 28633 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 22:57:31.690 DEBUG 28633 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 22:57:46.623 DEBUG 28633 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:57:46.623 DEBUG 28633 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:57:46.625 ERROR 28633 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 22:57:46.625 DEBUG 28633 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 22:57:49.463 DEBUG 28633 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:57:49.466 DEBUG 28633 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 22:57:50.659 DEBUG 28633 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:57:50.660 DEBUG 28633 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 22:57:58.113 DEBUG 28633 --- [http-nio-8082-exec-2] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:57:58.117 DEBUG 28633 --- [http-nio-8082-exec-2] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 22:58:04.968 DEBUG 28633 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac1300050', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:58:12.201 DEBUG 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:58:12.206 DEBUG 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:58:12.210 ERROR 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 22:58:12.210 DEBUG 28633 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 22:58:34.808  INFO 28633 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:58:34.812  INFO 28633 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:58:34.815  INFO 28633 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 22:58:34.819  INFO 28633 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 22:58:42.057  INFO 28727 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28727 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 22:58:42.063 DEBUG 28727 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 22:58:42.064  INFO 28727 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 22:58:43.022  INFO 28727 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 22:58:43.219  INFO 28727 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188ms. Found 4 repository interfaces.
+2021-07-03 22:58:44.012  INFO 28727 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccd9b9db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 22:58:44.496  INFO 28727 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 22:58:44.528  INFO 28727 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 22:58:44.529  INFO 28727 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 22:58:44.668  INFO 28727 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 22:58:44.669  INFO 28727 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2508 ms
+2021-07-03 22:58:45.300  INFO 28727 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 22:58:45.466  INFO 28727 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 22:58:45.529  INFO 28727 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 22:58:45.608  INFO 28727 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 22:58:45.610  INFO 28727 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 22:58:45.793  INFO 28727 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 22:58:45.958  INFO 28727 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 22:58:46.763  INFO 28727 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 22:58:47.129  INFO 28727 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 22:58:47.669  INFO 28727 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 22:58:47.757  WARN 28727 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 22:58:48.112  INFO 28727 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 22:58:48.194  INFO 28727 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 22:58:48.197  INFO 28727 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 7.212 seconds (JVM running for 7.764)
+2021-07-03 22:58:58.858  INFO 28727 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 22:58:58.859  INFO 28727 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 22:58:58.890  INFO 28727 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2021-07-03 22:59:34.124 DEBUG 28727 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:59:34.185  WARN 28727 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:59:39.052 DEBUG 28727 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:59:39.060  WARN 28727 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:59:42.366 DEBUG 28727 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:59:42.366 DEBUG 28727 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 22:59:42.413 DEBUG 28727 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 22:59:45.112 DEBUG 28727 --- [http-nio-8082-exec-6] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 22:59:45.119 DEBUG 28727 --- [http-nio-8082-exec-6] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 23:01:06.319 DEBUG 28727 --- [http-nio-8082-exec-9] r.test.load.service.LoadInstanceService  : Request to delete service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:01:06.321  INFO 28727 --- [http-nio-8082-exec-9] r.test.load.service.LoadInstanceService  : Try to delete all bindings before deleting instance
+2021-07-03 23:01:06.394 DEBUG 28727 --- [http-nio-8082-exec-9] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}DeleteServiceInstanceResponse{}
+2021-07-03 23:01:09.412 DEBUG 28727 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:01:09.420  WARN 28727 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:03:01.347 DEBUG 28727 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:03:01.349 DEBUG 28727 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:03:01.353  WARN 28727 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:04:03.594 DEBUG 28727 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:04:03.605  WARN 28727 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:04:56.262 DEBUG 28727 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:04:56.267  WARN 28727 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:05:18.476 DEBUG 28727 --- [http-nio-8082-exec-9] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:05:18.478  WARN 28727 --- [http-nio-8082-exec-9] r.test.load.service.LoadInstanceService  : Couldn't get non existed service instance: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:05:22.627 DEBUG 28727 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:05:22.628 DEBUG 28727 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:05:22.634 DEBUG 28727 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 23:05:24.856 DEBUG 28727 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:05:24.861 DEBUG 28727 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 23:05:31.527 DEBUG 28727 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:05:31.542 DEBUG 28727 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:05:31.565 DEBUG 28727 --- [http-nio-8082-exec-3] ru.test.load.loginmanager.LoginManager   : Begin user creation
+2021-07-03 23:05:31.588 DEBUG 28727 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Response is going to be sent: CreateServiceInstanceBindingResponse{bindingExisted=false}CreateServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:05:56.186 DEBUG 28727 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:05:56.194  INFO 28727 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:05:56.201 DEBUG 28727 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Response is going to be sent: GetServiceInstanceBindingResponse{parameters={}}GetServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:06:02.892  INFO 28727 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:06:02.895  INFO 28727 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:06:02.899  INFO 28727 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 23:06:02.904  INFO 28727 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 23:06:09.332  INFO 28753 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28753 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 23:06:09.335 DEBUG 28753 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 23:06:09.336  INFO 28753 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 23:06:10.321  INFO 28753 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 23:06:10.543  INFO 28753 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208ms. Found 4 repository interfaces.
+2021-07-03 23:06:11.397  INFO 28753 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$95771bd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 23:06:11.778  INFO 28753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 23:06:11.825  INFO 28753 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 23:06:11.826  INFO 28753 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 23:06:11.995  INFO 28753 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 23:06:11.996  INFO 28753 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2545 ms
+2021-07-03 23:06:12.548  INFO 28753 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 23:06:12.718  INFO 28753 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 23:06:12.779  INFO 28753 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 23:06:12.858  INFO 28753 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 23:06:12.860  INFO 28753 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 23:06:13.048  INFO 28753 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 23:06:13.203  INFO 28753 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 23:06:13.981  INFO 28753 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:06:14.393  INFO 28753 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 23:06:14.908  INFO 28753 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:06:14.976  WARN 28753 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 23:06:15.370  INFO 28753 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 23:06:15.462  INFO 28753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 23:06:15.465  INFO 28753 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 7.159 seconds (JVM running for 7.669)
+2021-07-03 23:06:42.941  INFO 28753 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 23:06:42.959  INFO 28753 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 23:06:43.003  INFO 28753 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2021-07-03 23:06:43.093 DEBUG 28753 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:06:43.139  WARN 28753 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:06:44.580 DEBUG 28753 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:06:44.589  WARN 28753 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:06:50.519 DEBUG 28753 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:06:50.569 DEBUG 28753 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:06:50.572  WARN 28753 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:06:52.216 DEBUG 28753 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:06:52.221 DEBUG 28753 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:06:52.223  WARN 28753 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:06:52.926 DEBUG 28753 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:06:52.928 DEBUG 28753 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:06:52.929  WARN 28753 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:06:53.689 DEBUG 28753 --- [http-nio-8082-exec-7] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:06:53.696 DEBUG 28753 --- [http-nio-8082-exec-7] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:06:53.697  WARN 28753 --- [http-nio-8082-exec-7] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:07:00.053 DEBUG 28753 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:07:00.055 DEBUG 28753 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:07:00.056  WARN 28753 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:07:01.039 DEBUG 28753 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:07:01.040 DEBUG 28753 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:07:01.043  WARN 28753 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:07:04.040 DEBUG 28753 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:07:04.046 DEBUG 28753 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:07:04.161 DEBUG 28753 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 23:07:08.782 DEBUG 28753 --- [http-nio-8082-exec-2] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:07:08.798 DEBUG 28753 --- [http-nio-8082-exec-2] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 23:07:11.142 DEBUG 28753 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:07:11.149 DEBUG 28753 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:07:11.161 DEBUG 28753 --- [http-nio-8082-exec-3] ru.test.load.loginmanager.LoginManager   : Begin user creation
+2021-07-03 23:07:11.179 DEBUG 28753 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Response is going to be sent: CreateServiceInstanceBindingResponse{bindingExisted=false}CreateServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:07:17.261  INFO 28753 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:07:17.272  INFO 28753 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:07:17.280  INFO 28753 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 23:07:17.287  INFO 28753 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 23:07:23.351  INFO 28763 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28763 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 23:07:23.356 DEBUG 28763 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 23:07:23.357  INFO 28763 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 23:07:24.248  INFO 28763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 23:07:24.396  INFO 28763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140ms. Found 4 repository interfaces.
+2021-07-03 23:07:25.093  INFO 28763 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da61d0d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 23:07:25.419  INFO 28763 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 23:07:25.445  INFO 28763 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 23:07:25.445  INFO 28763 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 23:07:25.566  INFO 28763 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 23:07:25.567  INFO 28763 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2148 ms
+2021-07-03 23:07:26.047  INFO 28763 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 23:07:26.193  INFO 28763 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 23:07:26.244  INFO 28763 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 23:07:26.318  INFO 28763 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 23:07:26.320  INFO 28763 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 23:07:26.478  INFO 28763 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 23:07:26.616  INFO 28763 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 23:07:27.281  INFO 28763 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:07:27.649  INFO 28763 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 23:07:28.202  INFO 28763 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:07:28.276  WARN 28763 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 23:07:28.658  INFO 28763 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 23:07:28.765  INFO 28763 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 23:07:28.768  INFO 28763 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 6.176 seconds (JVM running for 6.698)
+2021-07-03 23:07:42.198  INFO 28763 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 23:07:42.211  INFO 28763 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 23:07:42.250  INFO 28763 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2021-07-03 23:07:42.532 DEBUG 28763 --- [http-nio-8082-exec-1] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:07:42.610 DEBUG 28763 --- [http-nio-8082-exec-1] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:07:42.642  WARN 28763 --- [http-nio-8082-exec-1] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:07:53.674 DEBUG 28763 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:07:53.677 DEBUG 28763 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:07:53.764 DEBUG 28763 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 23:07:55.753 DEBUG 28763 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:07:55.759 DEBUG 28763 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:07:55.787 DEBUG 28763 --- [http-nio-8082-exec-4] ru.test.load.loginmanager.LoginManager   : Begin user creation
+2021-07-03 23:07:55.804 DEBUG 28763 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Response is going to be sent: CreateServiceInstanceBindingResponse{bindingExisted=false}CreateServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:07:59.805 DEBUG 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:07:59.807  INFO 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:07:59.818 DEBUG 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Response is going to be sent: GetServiceInstanceBindingResponse{parameters={}}GetServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:09:11.998 DEBUG 28763 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:09:12.001  INFO 28763 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:09:12.004 DEBUG 28763 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Response is going to be sent: GetServiceInstanceBindingResponse{parameters={}}GetServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:09:14.537 DEBUG 28763 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:09:14.541 DEBUG 28763 --- [http-nio-8082-exec-9] ru.test.load.loginmanager.LoginManager   : Begin user deletion
+2021-07-03 23:09:14.554 DEBUG 28763 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}DeleteServiceInstanceBindingResponse{}
+2021-07-03 23:09:17.351 DEBUG 28763 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:09:17.353  INFO 28763 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:09:17.355  WARN 28763 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : ServiceBinding with id d2ad82d2-141b-42ec-b3b1-5f858f20f714 does not exist
+2021-07-03 23:09:20.660 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:09:20.661 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:09:20.664 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.loginmanager.LoginManager   : Begin user creation
+2021-07-03 23:09:20.684 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Response is going to be sent: CreateServiceInstanceBindingResponse{bindingExisted=false}CreateServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:09:24.526 DEBUG 28763 --- [http-nio-8082-exec-1] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:09:24.528  INFO 28763 --- [http-nio-8082-exec-1] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:09:24.531 DEBUG 28763 --- [http-nio-8082-exec-1] ru.test.load.service.LoadBindingService  : Response is going to be sent: GetServiceInstanceBindingResponse{parameters={}}GetServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:09:26.570 DEBUG 28763 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:09:26.575 DEBUG 28763 --- [http-nio-8082-exec-3] ru.test.load.loginmanager.LoginManager   : Begin user deletion
+2021-07-03 23:09:26.577 DEBUG 28763 --- [http-nio-8082-exec-3] ru.test.load.service.LoadBindingService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}DeleteServiceInstanceBindingResponse{}
+2021-07-03 23:09:27.212 DEBUG 28763 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:09:27.214  WARN 28763 --- [http-nio-8082-exec-4] ru.test.load.service.LoadBindingService  : Service instance binding d2ad82d2-141b-42ec-b3b1-5f858f20f714 does not exist
+2021-07-03 23:09:28.004 DEBUG 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:09:28.012  WARN 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Service instance binding d2ad82d2-141b-42ec-b3b1-5f858f20f714 does not exist
+2021-07-03 23:09:28.532 DEBUG 28763 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:09:28.543  WARN 28763 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Service instance binding d2ad82d2-141b-42ec-b3b1-5f858f20f714 does not exist
+2021-07-03 23:09:36.718 DEBUG 28763 --- [http-nio-8082-exec-7] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:09:36.720  WARN 28763 --- [http-nio-8082-exec-7] ru.test.load.service.LoadBindingService  : Service instance binding d2ad82d2-141b-42ec-b3b1-5f858f20f714 does not exist
+2021-07-03 23:20:54.076 DEBUG 28763 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:20:54.106  INFO 28763 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:20:54.108  WARN 28763 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : ServiceBinding with id d2ad82d2-141b-42ec-b3b1-5f858f20f714 does not exist
+2021-07-03 23:21:05.810 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:21:05.820 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:21:05.825 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.loginmanager.LoginManager   : Begin user creation
+2021-07-03 23:21:05.843 DEBUG 28763 --- [http-nio-8082-exec-2] ru.test.load.service.LoadBindingService  : Response is going to be sent: CreateServiceInstanceBindingResponse{bindingExisted=false}CreateServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:23:15.385 DEBUG 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:23:15.396  INFO 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:23:15.400 DEBUG 28763 --- [http-nio-8082-exec-5] ru.test.load.service.LoadBindingService  : Response is going to be sent: GetServiceInstanceBindingResponse{parameters={}}GetServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:23:31.390  INFO 28763 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:23:31.395  INFO 28763 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:23:31.401  INFO 28763 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 23:23:31.410  INFO 28763 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-03 23:23:36.516  INFO 28822 --- [main] r.t.load.LoadServiceBrokerApplication    : Starting LoadServiceBrokerApplication on MacBook-Pro-Evgenij.local with PID 28822 (/Users/user/Desktop/testProject/target/classes started by user in /Users/user/Desktop/testProject)
+2021-07-03 23:23:36.519 DEBUG 28822 --- [main] r.t.load.LoadServiceBrokerApplication    : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-07-03 23:23:36.520  INFO 28822 --- [main] r.t.load.LoadServiceBrokerApplication    : No active profile set, falling back to default profiles: default
+2021-07-03 23:23:37.374  INFO 28822 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-03 23:23:37.516  INFO 28822 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134ms. Found 4 repository interfaces.
+2021-07-03 23:23:38.242  INFO 28822 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb17ca84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 23:23:38.594  INFO 28822 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-07-03 23:23:38.622  INFO 28822 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-03 23:23:38.622  INFO 28822 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-07-03 23:23:38.747  INFO 28822 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-03 23:23:38.747  INFO 28822 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2136 ms
+2021-07-03 23:23:39.205  INFO 28822 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-03 23:23:39.357  INFO 28822 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-03 23:23:39.404  INFO 28822 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-03 23:23:39.480  INFO 28822 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-07-03 23:23:39.481  INFO 28822 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-03 23:23:39.646  INFO 28822 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-03 23:23:39.798  INFO 28822 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-03 23:23:40.457  INFO 28822 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:23:40.777  INFO 28822 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-07-03 23:23:41.350  INFO 28822 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:23:41.402  WARN 28822 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 23:23:41.708  INFO 28822 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-03 23:23:41.789  INFO 28822 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-03 23:23:41.791  INFO 28822 --- [main] r.t.load.LoadServiceBrokerApplication    : Started LoadServiceBrokerApplication in 6.107 seconds (JVM running for 6.692)
+2021-07-03 23:23:55.894  INFO 28822 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 23:23:55.906  INFO 28822 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 23:23:55.938  INFO 28822 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2021-07-03 23:23:56.411 DEBUG 28822 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:23:56.412 DEBUG 28822 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:23:56.500 DEBUG 28822 --- [http-nio-8082-exec-1] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 23:24:10.937 DEBUG 28822 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:24:10.953 DEBUG 28822 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 23:24:19.653 DEBUG 28822 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Request to get service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:24:19.657 DEBUG 28822 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Response is going to be sent: GetServiceInstanceResponse{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', dashboardUrl='null', parameters={}}
+2021-07-03 23:24:40.091 DEBUG 28822 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Request to delete service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:24:40.094  INFO 28822 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Try to delete all bindings before deleting instance
+2021-07-03 23:24:40.177 DEBUG 28822 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}DeleteServiceInstanceResponse{}
+2021-07-03 23:24:58.012 DEBUG 28822 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:24:58.018 DEBUG 28822 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:24:58.033  WARN 28822 --- [http-nio-8082-exec-6] ru.test.load.service.LoadBindingService  : The specified serviceInstance 322574a5-d25f-4035-8277-7db289951f3b does not exist
+2021-07-03 23:25:07.803 DEBUG 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:25:07.803 DEBUG 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:25:07.809 DEBUG 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 23:25:13.453 DEBUG 28822 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Request to create service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}CreateServiceInstanceBindingRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', appGuid='null', bindResource=null, parameters={}, context=null, serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:25:13.457 DEBUG 28822 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Checking a BindingId is a valid UUID: d2ad82d2-141b-42ec-b3b1-5f858f20f714
+2021-07-03 23:25:13.469 DEBUG 28822 --- [http-nio-8082-exec-8] ru.test.load.loginmanager.LoginManager   : Begin user creation
+2021-07-03 23:25:13.496 DEBUG 28822 --- [http-nio-8082-exec-8] ru.test.load.service.LoadBindingService  : Response is going to be sent: CreateServiceInstanceBindingResponse{bindingExisted=false}CreateServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:25:22.191 DEBUG 28822 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Request to get service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}GetServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714'}
+2021-07-03 23:25:22.192  INFO 28822 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Requested instance id 322574a5-d25f-4035-8277-7db289951f3b exist
+2021-07-03 23:25:22.197 DEBUG 28822 --- [http-nio-8082-exec-9] ru.test.load.service.LoadBindingService  : Response is going to be sent: GetServiceInstanceBindingResponse{parameters={}}GetServiceInstanceAppBindingResponse{credentials={USER_PASSWORD=testpass, USER_NAME=test, URI=test@test}, syslogDrainUrl='null', volumeMounts=[]}
+2021-07-03 23:25:28.129 DEBUG 28822 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : Request to delete service instance binding: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceBindingRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', bindingId='d2ad82d2-141b-42ec-b3b1-5f858f20f714', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:25:28.136 DEBUG 28822 --- [http-nio-8082-exec-10] ru.test.load.loginmanager.LoginManager   : Begin user deletion
+2021-07-03 23:25:28.139 DEBUG 28822 --- [http-nio-8082-exec-10] ru.test.load.service.LoadBindingService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}DeleteServiceInstanceBindingResponse{}
+2021-07-03 23:25:53.403 DEBUG 28822 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:25:53.406 DEBUG 28822 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:25:53.427 ERROR 28822 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 23:25:53.428 DEBUG 28822 --- [http-nio-8082-exec-3] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 23:25:58.713 DEBUG 28822 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:25:58.713 DEBUG 28822 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:25:58.718 ERROR 28822 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 23:25:58.718 DEBUG 28822 --- [http-nio-8082-exec-4] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 23:26:05.716 DEBUG 28822 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Request to delete service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}DeleteServiceInstanceRequest{serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b', serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005'}
+2021-07-03 23:26:05.718  INFO 28822 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Try to delete all bindings before deleting instance
+2021-07-03 23:26:05.720 DEBUG 28822 --- [http-nio-8082-exec-5] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}DeleteServiceInstanceResponse{}
+2021-07-03 23:26:11.797 DEBUG 28822 --- [http-nio-8082-exec-6] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:26:11.797 DEBUG 28822 --- [http-nio-8082-exec-6] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:26:11.802 DEBUG 28822 --- [http-nio-8082-exec-6] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=false}
+2021-07-03 23:26:18.039 DEBUG 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:26:18.040 DEBUG 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:26:18.042 ERROR 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 23:26:18.042 DEBUG 28822 --- [http-nio-8082-exec-7] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 23:33:06.301 DEBUG 28822 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Request to create service instance: ServiceBrokerRequest{platformInstanceId='null', apiInfoLocation='null', originatingIdentity=null}AsyncServiceBrokerRequest{asyncAccepted=false}AsyncParameterizedServiceInstanceRequest{parameters={}, context=null}CreateServiceInstanceRequest{serviceDefinitionId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', planId='acdd7cfc-ccd9-11ea-87d0-0242ac130005', organizationGuid='null', spaceGuid='null', serviceInstanceId='322574a5-d25f-4035-8277-7db289951f3b'}
+2021-07-03 23:33:06.306 DEBUG 28822 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Checking a ServiceInstanceId is a valid UUID: 322574a5-d25f-4035-8277-7db289951f3b
+2021-07-03 23:33:06.308 ERROR 28822 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : instance already exists
+2021-07-03 23:33:06.308 DEBUG 28822 --- [http-nio-8082-exec-10] r.test.load.service.LoadInstanceService  : Response is going to be sent: AsyncServiceInstanceResponse{async=false, operation='null'}CreateServiceInstanceResponse{dashboardUrl='null', instanceExisted=true}
+2021-07-03 23:35:03.897  INFO 28822 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-03 23:35:03.905  INFO 28822 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 23:35:03.914  INFO 28822 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-03 23:35:03.918  INFO 28822 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
