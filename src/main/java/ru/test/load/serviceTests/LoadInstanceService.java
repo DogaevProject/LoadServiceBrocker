@@ -1,4 +1,4 @@
-package ru.test.load.service;
+package ru.test.load.serviceTests;
 
 import ru.test.load.config.ServiceBrokerConfiguration;
 import ru.test.load.model.LoadServiceBinding;

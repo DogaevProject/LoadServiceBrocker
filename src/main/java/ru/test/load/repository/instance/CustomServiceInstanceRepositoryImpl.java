@@ -4,7 +4,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.test.load.service.ServiceInstance;
+import ru.test.load.serviceTests.ServiceInstance;
 
 @Repository
 public class CustomServiceInstanceRepositoryImpl<T extends ServiceInstance> implements CustomServiceInstanceRepository<T> {

@@ -1,4 +1,4 @@
-package ru.test.load.service;
+package ru.test.load.serviceTests;
 
 import java.util.Objects;
 import javax.persistence.Column;
