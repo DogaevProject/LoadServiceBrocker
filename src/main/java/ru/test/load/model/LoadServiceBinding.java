@@ -1,6 +1,6 @@
 package ru.test.load.model;
 
-import ru.test.load.serviceTests.ServiceBinding;
+import ru.test.load.service.ServiceBinding;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfig
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import ru.test.load.serviceTests.ServiceBinding;
-import ru.test.load.serviceTests.ServiceInstance;
+import ru.test.load.service.ServiceBinding;
+import ru.test.load.service.ServiceInstance;
 
 @Configuration
 @AutoConfigureAfter({JpaRepositoriesAutoConfiguration.class})
